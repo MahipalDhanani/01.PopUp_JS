@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  background-color: teal;
+  height: 100vh;
+}
+#main {
+  /* color: rgba(214, 231, 59, 0.7); */
+  font-weight: 900;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 25px;
+  padding: 20px;
+  /* background-color: rgb(9, 104, 104); */
+}
+#main button {
+  background-color: cadetblue;
+  border: none;
+  border-radius: 20px;
+  padding: 7px 15px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  transition: all 1s;
+}
+#main button:hover {
+  box-shadow: rgb(57, 120, 189) 0px 0px 30px 10px;
+}
+#popup {
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  opacity: 0;
+  /* border: 1px solid red; */
+  width: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(234, 162, 162);
+  justify-content: flex-end;
+  align-content: flex-start;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  transform: translate(-50, -50);
+  font-weight: 600;
+  border-radius: 20px;
+}
+#popup button {
+  height: 20px;
+  width: 20px;
+  border: none;
+  background-color: rgb(70, 145, 206);
+  font-weight: 900;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  cursor: pointer;
+}
